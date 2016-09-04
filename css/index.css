@@ -1,0 +1,11 @@
+div.home-header {
+	background: url("../img/aaacec.jpg") no-repeat;
+	background-size: cover;
+	padding: 2em;
+	height: 100%;
+}
+
+.home-header .title {
+	text-align: center;
+	color: #fff;
+}
