@@ -9,20 +9,12 @@
     	<link href="/css/index.css" rel="stylesheet">
     	<link href="/css/menu.css" rel="stylesheet">
 	</head>
-	<body>
+
+	<body ng-app="aaacec">
 
 		<div class="home-header">
 			<div class="gradient-overlay">
-				<img src="/img/header.png"/>
-
-				<ul class="menu">
-					<li>INICIO</li>
-					<li>PRODUTOS</li>
-					<li>ESPORTES</li>
-					<li>EVENTOS</li>
-					<li>E-SPORTS</li>
-					<li>CONTATO</li>
-				</ul>
+				<nav-menu></nav-menu>
 
 				<h1 class="title">Associação Atlética Acadêmica </br> da Ciência e Engenharia de Computação</h1>
 
@@ -31,55 +23,13 @@
 			</div>
 		</div>
 
-		<div class="content">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 style="font-family: 'Nexa', Helvetica, sans-serif;">Fique por dentro</h1>
-					Para mais notícias e avisos do que está acontecendo, não esqueça de curtir a página da AAACEC no Facebook!
-				</div>
+		<div class="content" ng-view>
 
-				<div class="col-md-6">
-					<div class="column">
-						Mais recente
-					</div>
-				</div>
-
-				<div class="col-md-6">
-					<div class="column">
-						O que vem por aí
-						<div class="calendar-box">
-							<ul class="calendar">
-								<li>
-									<div class="row">
-										<div class="col-md-4">05.05</div>
-										<div class="col-md-8">Lottus</div>
-									</div>
-								</li>
-								<li>
-									<div class="row">
-										<div class="col-md-4">26.05</div>
-										<div class="col-md-8">Intercomp</div>
-									</div>
-								</li>
-								<li>
-									<div class="row">
-										<div class="col-md-4">12.10</div>
-										<div class="col-md-8">Campeonato de Handebol</div>
-									</div>
-								</li>
-								<li>
-									<div class="row">
-										<div class="col-md-4">10.09</div>
-										<div class="col-md-8">Komptoberfest</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
-
+		<script src="/libs/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+      	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
 		<script src="/libs/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/js/index.js"></script>
 	</body>
 </html>

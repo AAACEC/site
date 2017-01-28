@@ -1,11 +1,23 @@
 var app = angular.module('aaacec',['ngRoute']);
 
-console.info('TOAQUI')
 app.config(function($routeProvider, $locationProvider) {
-    $locationProvider.html5Mode(true);
+
     $routeProvider.when('/', {
-        templateUrl : 'static/home.html'
+        templateUrl : 'pages/home.html'
     }).when('/produtos', {
-        templateUrl : 'static/produtos.html'
-    })
+        templateUrl : 'pages/produtos.html'
+    });
+
+    $locationProvider.html5Mode({
+      enabled: true,
+      requireBase: false
+    });
+
+});
+
+app.directive('navMenu', function() {
+	return {
+		restrict: 'E',
+		templateUrl: 'directives/menu.html'
+	};
 });

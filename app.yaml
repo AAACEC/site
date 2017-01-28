@@ -18,9 +18,11 @@ handlers:
 - url: /js
   static_dir: static/js
 
-- url: /
-  static_files: static/index.html
-  upload: static/index.html
+- url: /pages/.*
+  script: src.staticrouter.app
+
+- url: /directives/.*
+  script: src.staticrouter.app
 
 - url: /.*
   script: src.staticrouter.app
