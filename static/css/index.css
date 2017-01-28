@@ -24,21 +24,6 @@ div.home-header > div.gradient-overlay {
 	padding: 2em;
 }
 
-ul.menu {
-	list-style: none;
-	padding: 0;
-	width: 100%;
-	margin-top: 1em;
-	border-bottom: 2px solid #fff;
-}
-
-ul.menu li {
-	display: inline-block;
-    font-size: 17px;
-	font-weight: 300;
-	padding: 0.8em 2.5em;
-}
-
 @font-face {
   font-family: 'Nexa';
   src:  url('../fonts/NexaLight.otf') format('woff2'),
@@ -71,7 +56,6 @@ ul.menu li {
 .content {
     text-align: left;
     color: #fff;
-    padding: 2.5em 2.5em;
     font-size: 18px;
     font-family: 'Open Sans';
 }
