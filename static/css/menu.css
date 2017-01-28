@@ -1,13 +1,14 @@
 div.navigation-menu {
     padding: 2em;
+    border-bottom: 1px solid #fff;
+    margin: 0 2em;
 }
 
 ul.menu {
+    display: inline-block;
 	list-style: none;
 	padding: 0;
-	width: 100%;
 	margin-top: 1em;
-	border-bottom: 1px solid #fff;
 }
 
 ul.menu li {

@@ -30,3 +30,11 @@ app.directive('navMenu', function() {
 		}
 	};
 });
+
+
+app.directive('footer', function() {
+	return {
+		restrict: 'E',
+		templateUrl: 'directives/footer.html'
+	};
+});
