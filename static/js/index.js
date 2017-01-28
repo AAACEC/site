@@ -6,6 +6,12 @@ app.config(function($routeProvider, $locationProvider) {
         templateUrl : 'pages/home.html'
     }).when('/produtos', {
         templateUrl : 'pages/produtos.html'
+    }).when('/eventos', {
+        templateUrl : 'pages/eventos.html'
+    }).when('/esportes', {
+        templateUrl : 'pages/esportes.html'
+    }).when('/contato', {
+        templateUrl : 'pages/contato.html'
     });
 
     $locationProvider.html5Mode({
@@ -18,6 +24,9 @@ app.config(function($routeProvider, $locationProvider) {
 app.directive('navMenu', function() {
 	return {
 		restrict: 'E',
-		templateUrl: 'directives/menu.html'
+		templateUrl: 'directives/menu.html',
+        scope: {
+			pageContext: '@context'
+		}
 	};
 });

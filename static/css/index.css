@@ -21,7 +21,6 @@ div.home-header > div.gradient-overlay {
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(13,13,38,1) 100%);
 	background: -o-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(13,13,38,1) 100%);
 	background: -ms-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(13,13,38,1) 100%);
-	padding: 2em;
 }
 
 @font-face {
@@ -83,9 +82,14 @@ ul.calendar {
     font-family: 'Open Sans';
 }
 
-
-
 ul.calendar li {
     display: block;
     padding: 0em 0em 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Nexa', Helvetica, sans-serif;
 }
