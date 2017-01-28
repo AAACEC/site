@@ -56,22 +56,6 @@ div.home-header > div.gradient-overlay {
 .content {
     text-align: left;
     color: #fff;
-    padding: 2.5em 2.5em;
     font-size: 18px;
     font-family: 'Open Sans';
-}
-
-.content .column {
-    text-align: left;
-    color: #fff;
-    padding: 2em 0em;
-    font-size: 27px;
-    font-family: 'Nexa', Helvetica, sans-serif;
-}
-
-.content .column .calendar {
-    width: 415px;
-    height: 415px;
-    margin: 1em 0em;
-    border: 3px solid #fff;
 }

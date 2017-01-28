@@ -9,50 +9,35 @@
     	<link href="css/index.css" rel="stylesheet">
 		<link href="css/menu.css" rel="stylesheet">
 	</head>
-	<body>
+	<body ng-app>
 
 		<div class="home-header">
 			<div class="gradient-overlay">
-				<img src="img/header.png"/>
+				<div class="navigation">
+					<img src="img/header.png"/>
 
-				<ul class="menu">
-					<li><a href="/">INÍCIO</a></li>
-					<li><a href="/esportes">ESPORTES</a></li>
-					<li><a href="/eventos">EVENTOS</a></li>
-					<li><a href="/produtos">PRODUTOS</a></li>
-					<li><a href="/contato">CONTATO</a></li>
-				</ul>
+					<ul class="menu">
+						<li><a href="#">INÍCIO</a></li>
+						<li><a href="/esportes">ESPORTES</a></li>
+						<li><a href="/eventos">EVENTOS</a></li>
+						<li><a href="#/produtos">PRODUTOS</a></li>
+						<li><a href="/contato">CONTATO</a></li>
+					</ul>
+				</div>
 
 				<h1 class="title">Associação Atlética Acadêmica </br> da Ciência e Engenharia de Computação</h1>
 
 				<div class="description">A AAACEC é uma das entidades da FEEC e do IC feita por alunos que incetiva as atividades esportivas. O principal motivo da existência da atlética são os jogos universitários.</div>
-
 			</div>
 		</div>
 
-		<div class="content">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 style="font-family: 'Nexa', Helvetica, sans-serif;">Fique por dentro</h1>
-					Para mais notícias e avisos do que está acontecendo, não esqueça de curtir a página da AAACEC no Facebook!
-				</div>
+		<div ng-view></div>
 
-				<div class="col-md-6">
-					<div class="column">
-						Mais recente
-					</div>
-				</div>
 
-				<div class="col-md-6">
-					<div class="column">
-						O que vem por aí
-						<div class="calendar">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
+		<script src="/libs/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+      	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
 		<script src="/libs/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/js/index.js"></script>
 	</body>
 </html>
