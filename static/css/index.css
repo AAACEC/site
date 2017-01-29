@@ -49,13 +49,14 @@ div.gradient-overlay {
     text-align: center;
     color: #fff;
     padding: 0.5em 1.5em 3em;
-        font-family: 'Open Sans';
+    font-family: 'Open Sans';
 }
 
 .content {
     text-align: left;
     color: #fff;
     padding: 1.5em 2.7em;
+    font-size: 18px;
     font-family: 'Open Sans';
 }
 
