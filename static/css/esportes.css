@@ -3,3 +3,78 @@ div.esportes-bg {
     background-size: cover;
     height: 100%;
 }
+
+span.highlight {
+    background-color: #2d2d85;
+}
+
+.content .figure {
+    width: 286px;
+    height: 219px;
+    margin: 0.5em;
+    border-width: 8px 8px 8px 8px;
+    border-style: inset;
+    border-color: #3c3cb0;
+    color: #ffffff;
+}
+
+.content .figure .table-sport {
+    width: 286px;
+    height: 219px;
+    margin: 0.5em;
+    left: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    display: table;
+}
+
+.content .figure .table-sport .sport {
+    display: table-cell;
+    background: rgba(0,0,0,0.4);
+    font: 20px 'Nexa', Helvetica, sans-serif;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.content .figure .figure-caption {
+    width: 286px;
+    opacity: 1;
+    height: 219px;
+    margin: 0.5em;
+    left: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fff;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+
+.content .figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+
+.content figure:hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+
+.content figure:hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0);
+}
