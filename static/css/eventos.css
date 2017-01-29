@@ -8,31 +8,31 @@ div.events-page .events-content {
     padding: 2em;
 }
 
-.parties-list {
+div.events-page .parties-list {
     margin: 3em 2em;
 }
 
-.swiper-container {
+div.events-page .swiper-container {
 	width: 100%;
 	margin: 20px auto;
 }
 
-.swiper-slide {
+div.events-page .swiper-slide {
 	text-align: center;
 	max-width: 400px;
 }
 
-.party-item img {
+div.events-page .party-item img {
     max-width: 300px;
 }
 
-.party-item h3 > span {
+div.events-page .party-item h3 > span {
     border-bottom: 2px solid green;
     padding-bottom: 0.5em;
     font-weight: bold;
 }
 
-.party-item .desc {
+div.events-page .party-item .desc {
     padding: 1.2em 0.5em 0;
 }
 

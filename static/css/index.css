@@ -41,13 +41,14 @@ div.gradient-overlay {
 	text-align: center;
 	color: #fff;
 	padding: 2em 1.5em 0.5em;
-    font-size: 50px;
+    font-size: 3.2em;
 	font-family: 'Nexa', Helvetica, sans-serif;
 }
 
 .home-header .description {
     text-align: center;
     color: #fff;
+	font-size: 1.2em;
     padding: 0.5em 1.5em 3em;
     font-family: 'Open Sans';
 }
@@ -92,8 +93,8 @@ h4 {
 	font-family: 'Nexa', Helvetica, sans-serif;
 }
 
-.align-right {
-	text-align: right;
+.align-center {
+	text-align: center;
 }
 
 footer {
@@ -113,6 +114,21 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.75);
+}
+
+footer .contact div {
+	margin: 0.25em;
+}
+
+.footer-text {
+	font-size: 0.75em;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.footer-social-icon {
+	width: 24px;
+	margin-right: 1em;
 }
 
 .fade {
@@ -139,4 +155,13 @@ footer a:hover {
 }
 .fade.ng-leave-active {
     opacity: 0;
+}
+
+.news-item.swiper-slide {
+	max-width: 400px;
+}
+
+.news-item.swiper-slide img {
+	width: 100%;
+	height: auto;
 }
