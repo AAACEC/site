@@ -1,7 +1,7 @@
 div.events-page {
 	background: url("../img/eventos.jpg") no-repeat;
 	background-size: cover;
-	height: 100%;
+	height: auto;
 }
 
 div.events-page .events-content {

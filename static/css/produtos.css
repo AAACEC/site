@@ -1,7 +1,7 @@
 div.produtos-bg {
     background: url("/img/produtos/bg.jpeg") no-repeat;
     background-size: cover;
-    height: 100%;
+    height: auto;
 }
 
 div.gradient-overlay {
