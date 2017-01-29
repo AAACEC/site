@@ -46,3 +46,11 @@ app.controller('EventsCtrl', function() {
         prevButton: '.swiper-button-prev'
     });
 });
+
+app.controller('HomeCtrl', function() {
+    var mySwiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+});
