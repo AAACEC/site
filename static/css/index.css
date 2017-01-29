@@ -4,7 +4,7 @@ body {
 	background: #0d0d26;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 1.5em;
 }
 
 div.home-header {
@@ -57,7 +57,7 @@ div.gradient-overlay {
     text-align: left;
     color: #fff;
     padding: 1.5em 2.7em;
-    font-size: 18px;
+    font-size: 1.2em;
     font-family: 'Open Sans';
 }
 
