@@ -14,7 +14,8 @@ ul.menu {
 ul.menu li {
 	display: inline-block;
 	font-weight: 300;
-	padding: 1em;
+	padding: 0em 2em;
+    vertical-align: middle;
     font-weight: bold;
 }
 

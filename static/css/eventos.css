@@ -1,0 +1,55 @@
+div.events-page {
+	background: url("../img/eventos.jpg") no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+div.events-page .events-content {
+    padding: 2em;
+}
+
+.parties-list {
+    margin: 3em 2em;
+}
+
+.swiper-container {
+	width: 100%;
+	margin: 20px auto;
+}
+
+.swiper-slide {
+	text-align: center;
+	max-width: 400px;
+}
+
+.party-item img {
+    max-width: 300px;
+}
+
+.party-item h3 > span {
+    border-bottom: 2px solid green;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.party-item .desc {
+    padding: 1.2em 0.5em 0;
+}
+
+/* Overriding from lib */
+.swiper-button-disabled {
+	display: none;
+}
+
+.swiper-button-prev {
+	width: 35px;
+	background-image: url('/img/icons/left-arrow.svg');
+	background-size: contain;
+}
+
+.swiper-button-next {
+	width: 35px;
+	background-image: url('/img/icons/right-arrow.svg');
+	background-size: contain;
+}
+/**/

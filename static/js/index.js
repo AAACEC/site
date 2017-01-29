@@ -31,10 +31,18 @@ app.directive('navMenu', function() {
 	};
 });
 
-
 app.directive('footer', function() {
 	return {
 		restrict: 'E',
 		templateUrl: 'directives/footer.html'
 	};
+});
+
+app.controller('EventsCtrl', function() {
+    var mySwiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
 });
