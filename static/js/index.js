@@ -1,4 +1,4 @@
-var app = angular.module('aaacec',['ngRoute']);
+var app = angular.module('aaacec',['ngRoute', 'ngAnimate']);
 
 app.config(function($routeProvider, $locationProvider) {
 
