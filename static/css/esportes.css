@@ -1,5 +1,5 @@
-.content {
-    text-align: left;
-    font-size: 18px;
-    font-family: 'Open Sans';
+div.esportes-bg {
+    background: url("../img/esportes/bg.jpeg") no-repeat;
+    background-size: cover;
+    height: 100%;
 }

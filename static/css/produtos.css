@@ -4,25 +4,8 @@ div.produtos-bg {
     height: 100%;
 }
 
-div.gradient-overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.35);
-    background: -moz-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(13,13,38,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.35)), color-stop(100%, rgba(13,13,38,1)));
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(13,13,38,1) 100%);
-    background: -o-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(13,13,38,1) 100%);
-    background: -ms-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(13,13,38,1) 100%);
-}
-
-.content {
-    text-align: left;
-    font-size: 18px;
-    font-family: 'Open Sans';
-}
-
 .content .fig {
-    border: 7px solid #fff;
+    border: 7px solid #e9e9e9;
     box-shadow: 0 0 7px #ddd;
     margin: 2em;
     position: relative;
