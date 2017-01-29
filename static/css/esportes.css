@@ -4,10 +4,6 @@ div.esportes-bg {
     height: 100%;
 }
 
-span.highlight {
-    background-color: #2d2d85;
-}
-
 .content .figure {
     width: 286px;
     height: 219px;
@@ -33,48 +29,88 @@ span.highlight {
 .content .figure .table-sport .sport {
     display: table-cell;
     background: rgba(0,0,0,0.4);
-    font: 20px 'Nexa', Helvetica, sans-serif;
+    font: 18px 'Nexa', Helvetica, sans-serif;
     vertical-align: middle;
     text-align: center;
     position: relative;
 }
 
+.content .figure:hover .table-sport {
+    opacity: 0;
+}
+
 .content .figure .figure-caption {
     width: 286px;
-    opacity: 1;
     height: 219px;
+    opacity: 0;
     margin: 0.5em;
     left: 16px;
     position: absolute;
     right: 0;
     top: 0;
-    vertical-align: middle;
+    display: table;
+    background-color: #24246A;
+    /*border-width: 8px 8px 8px 8px;
+    border-style: inset;
+    border-color: #fff;*/
+    /*backface-visibility: hidden;*/
+    /*-webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);*/
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s
+}
+
+.content .figure .figure-caption .contact {
+    display: table-cell;
     text-align: center;
-    background-color: #fff;
-    backface-visibility:hidden;
-    -webkit-transform:rotateY(-180deg);
-    -moz-transform:rotateY(-180deg);
-    transform:rotateY(-180deg);
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    transition:all .5s
+    vertical-align: middle;
+    position: relative;
+    font: 20px 'Nexa', Helvetica, sans-serif;
+    /*-webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;*/
+}
+
+.content .figure:hover .figure-caption {
+    opacity: 1;
+}
+
+.content .figure .figure-caption .contact h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
 }
 
 .content .figure img {
-    backface-visibility:hidden;
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    transition:all .5s
+    backface-visibility: hidden;
+    -webkit-transition: all .9s;
+    -moz-transition: all .9s;
+    transition: all .9s
 }
 
-.content figure:hover img {
-    -webkit-transform:rotateY(180deg);
-    -moz-transform:rotateY(180deg);
-    transform:rotateY(180deg)
+.content .figure:hover img, .figure.hover img {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg)
 }
 
-.content figure:hover figcaption {
+.content .figure:hover figcaption, .figure.hover .figure-caption {
     -webkit-transform:rotateY(0);
     -moz-transform:rotateY(0);
     transform:rotateY(0);
+}
+
+.content .pic {
+    width: 400px;
+    height: 293px;
+    border-style: double;
+    border-width: 10px;
+    margin: 1em;
+}
+
+.content .sport-text {
+    text-align: center;
+    font-size: 13px;
 }
