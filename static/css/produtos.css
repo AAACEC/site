@@ -67,6 +67,12 @@ div.gradient-overlay {
     opacity: 1;
 }
 
+.content .fig:hover .figcaption .text {
+    -moz-transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+}
+
 .content .fig img {
     display: block;
     -webkit-transition: all 300ms;
