@@ -159,9 +159,15 @@ footer .contact div {
 
 .news-item.swiper-slide {
 	max-width: 400px;
+	margin: 1em;
 }
 
 .news-item.swiper-slide img {
 	width: 100%;
 	height: auto;
+}
+
+.news-item .desc {
+	margin: 1em;
+	text-align: center;
 }
