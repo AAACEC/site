@@ -1,19 +1,21 @@
 div.navigation-menu {
     padding: 2em;
+    border-bottom: 1px solid #fff;
+    margin: 0 2em;
 }
 
 ul.menu {
+    display: inline-block;
 	list-style: none;
 	padding: 0;
-	width: 100%;
 	margin-top: 1em;
-	border-bottom: 1px solid #fff;
 }
 
 ul.menu li {
 	display: inline-block;
 	font-weight: 300;
-	padding: 1em;
+	padding: 0em 2em;
+    vertical-align: middle;
     font-weight: bold;
 }
 
