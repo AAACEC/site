@@ -1,5 +1,5 @@
 div.produtos-bg {
-    background: url("../img/produtos/bg.jpeg") no-repeat;
+    background: url("/img/produtos/bg.jpeg") no-repeat;
     background-size: cover;
     height: 100%;
 }
