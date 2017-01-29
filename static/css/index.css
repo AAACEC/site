@@ -93,8 +93,8 @@ h4 {
 	font-family: 'Nexa', Helvetica, sans-serif;
 }
 
-.align-right {
-	text-align: right;
+.align-center {
+	text-align: center;
 }
 
 footer {
@@ -114,6 +114,21 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.75);
+}
+
+footer .contact div {
+	margin: 0.25em;
+}
+
+.footer-text {
+	font-size: 0.75em;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.footer-social-icon {
+	width: 24px;
+	margin-right: 1em;
 }
 
 .fade {
