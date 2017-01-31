@@ -29,7 +29,7 @@ div.esportes-bg {
 .content .figure .table-sport .sport {
     display: table-cell;
     background: rgba(0,0,0,0.4);
-    font: 18px 'Nexa', Helvetica, sans-serif;
+    font: 1em 'Nexa', Helvetica, sans-serif;
     vertical-align: middle;
     text-align: center;
     position: relative;
@@ -77,13 +77,14 @@ div.esportes-bg {
     backface-visibility: hidden;
     -webkit-transition: all .9s;
     -moz-transition: all .9s;
-    transition: all .9s
+    transition: all .9s;
+    width: 100%;
 }
 
 .content .figure:hover img, .figure.hover img {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
 }
 
 .content .figure:hover figcaption, .figure.hover .figure-caption {
@@ -93,8 +94,9 @@ div.esportes-bg {
 }
 
 .content .pic {
-    margin: 1em;
-    width: 89%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 87%;
     border-style: double;
     border-width: 10px;
 }
@@ -102,4 +104,5 @@ div.esportes-bg {
 .content .sport-text {
     text-align: center;
     font-size: 0.7em;
+    width: 90%;
 }
