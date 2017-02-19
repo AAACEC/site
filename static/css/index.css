@@ -11,6 +11,7 @@ div.home-header {
 	background: url("../img/aaacec.jpg") no-repeat;
 	background-size: cover;
 	height: 100%;
+    display: block;
 }
 
 div.gradient-overlay {
