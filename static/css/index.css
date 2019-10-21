@@ -172,3 +172,8 @@ footer .contact div {
 	margin: 1em;
 	text-align: center;
 }
+
+.linkFb:hover {
+	text-decoration: none;
+	color: white;
+}
